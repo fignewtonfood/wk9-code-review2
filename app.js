@@ -30,7 +30,7 @@ nicksFlicks.config(function($stateProvider, $urlRouterProvider){
         views: {
             'details': {
                 templateUrl: "partials/reviews.details.html",
-                controller: "ReviewsCtrl",
+                controller: "DetailsCtrl",
             }
         }
     });

@@ -20,5 +20,6 @@ nicksFlicks.factory('ReviewsFactory', function ReviewsFactory(){
         factory.reviewTitle = null;
         factory.reviewText = null;
     };
+
     return factory;
 });
