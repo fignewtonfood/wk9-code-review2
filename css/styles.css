@@ -28,3 +28,19 @@ h2 {
 #footerstyle {
     width: 394px;
 }
+
+.night-mode {
+    filter: invert(100%);
+    background-color: #333333;
+    color: #ffffcc;
+}
+
+
+.night-mode textarea {
+    background-color : #ccff99;
+}
+
+
+.night-mode input {
+    background-color : #ccff99;
+}
