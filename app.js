@@ -10,7 +10,7 @@ nicksFlicks.config(function($stateProvider, $urlRouterProvider){
             },
             'body': {
                 templateUrl: "partials/home.html",
-            },
+            }
         }
     });
     $stateProvider.state('reviews', {
@@ -22,7 +22,7 @@ nicksFlicks.config(function($stateProvider, $urlRouterProvider){
             'body': {
                 templateUrl: "partials/reviews.html",
                 controller: "ReviewsCtrl",
-            },
+            }
         }
     });
     $stateProvider.state('reviews.details', {
@@ -31,6 +31,10 @@ nicksFlicks.config(function($stateProvider, $urlRouterProvider){
             'details': {
                 templateUrl: "partials/reviews.details.html",
                 controller: "DetailsCtrl",
+            },
+            'footer': {
+                templateUrl: "partials/footer.html",
+                // controller: "DetailsC",
             }
         }
     });
