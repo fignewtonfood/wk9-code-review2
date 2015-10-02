@@ -4,7 +4,7 @@
     <div ng-show="reviews.length">
         <ul>
             <l1 ng-repeat="item in reviews">
-                <a class="reviewbar">{{ item.title }}</a><br>
+                <a ui-sref="reviews.details({ reviewId: item.id })" class="reviewbar">{{ item.title }}</a><br>
                 <!-- <div class="container" ng-controller="AttendanceCtrl">
                     <div ng-hide="item.attendance">
                         <button type="button" ng-click="addStudentIsPresent(item)" class="btn btn-success">I'm here</button>
@@ -17,3 +17,5 @@
         </ul>
     </div>
 </div>
+
+<div ui-view="details"></div>

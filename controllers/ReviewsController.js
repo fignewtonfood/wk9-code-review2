@@ -1,5 +1,6 @@
 nicksFlicks.controller('ReviewsCtrl', function ReviewsCtrl($scope, ReviewsFactory){
     $scope.reviews = ReviewsFactory.reviews;
+    $scope.ReviewsFactory = ReviewsFactory;
 // sets student attendance field to true
     // $scope.addStudentIsPresent = function(student) {
     //     student.attendance = true;
