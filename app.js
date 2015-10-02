@@ -34,7 +34,7 @@ nicksFlicks.config(function($stateProvider, $urlRouterProvider){
             },
             'footer': {
                 templateUrl: "partials/footer.html",
-                // controller: "DetailsC",
+                controller: "ReviewsCtrl",
             }
         }
     });
